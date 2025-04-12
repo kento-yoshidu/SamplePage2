@@ -1,13 +1,15 @@
 import './App.css'
 import styles from './css/style.module.css';
+import { Page2 } from './components/page2';
+import { Div3 } from './components/div3';
 
 function App() {
   return (
     <>
       <div className={styles.grid}>
-        <h2 className={styles.item1}>
+        <div className={styles.item1}>
           item1
-        </h2>
+        </div>
 
         <div className={styles.item2}>
           item2
@@ -25,6 +27,10 @@ function App() {
           item5
         </div>
       </div>
+
+      <Page2 />
+
+      <Div3 />
     </>
   )
 }

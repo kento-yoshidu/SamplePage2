@@ -1,0 +1,35 @@
+.grid {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 360px 180px;
+  gap: 10px;
+}
+
+.item1 {
+  grid-column: span 3;
+  grid-row: 1 / 2;
+  background-color: brown;
+}
+
+.item2 {
+  background-color: darkgray;
+  grid-column: span 6;
+  grid-row: 1 / 2;
+}
+
+.item3 {
+  background-color: sienna;
+  grid-column: span 3;
+  grid-row: span 2;
+}
+
+.item4 {
+  background-color: pink;
+  grid-column: span 7;
+}
+
+.item5 {
+  background-color: palegoldenrod;
+  grid-column: span 2;
+}
