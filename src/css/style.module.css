@@ -56,3 +56,28 @@
 		}
 	}
 }
+
+.withIconVertical {
+	display: grid;
+	justify-items: center;
+	font-size: 12px;
+}
+
+.menuVertical {
+	display: grid;
+	gap: 16px;
+	align-content: start;
+
+	& a {
+		padding: 8px 12px;
+		border-radius: 8px;
+
+		&.current {
+			background-color: #f1f5f9;
+		}
+
+		&:hover {
+			background-color: #e2e8f0;
+		}
+	}
+}
